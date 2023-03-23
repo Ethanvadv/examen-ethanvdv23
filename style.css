@@ -1,0 +1,45 @@
+:root{
+  --beige : #f4ede4;
+    --violet : #541554;
+   --jaune : #ecb22e;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+header{
+  background-color: var(--violet);
+  color: white;
+}
+header nav{
+  background-color: var(--violet);
+  color: white;
+}
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  } 
+li{
+  color: white;
+  font-size: 1.2rem;
+}
+.h1-color{
+  color: var(--jaune);
+}
+/* #img-mg{
+  padding: 5% 5% 5% 5% ;
+} */
+#equipe{
+  background-color: var(--beige);
+  padding-top: 4%;
+}
+label{
+  margin-bottom: 1%;
+  font-size: 1.2rem;
+}
+form{
+  margin-left: 5%;
+  margin-bottom: 5%;
+  margin-top: 5%;
+}
